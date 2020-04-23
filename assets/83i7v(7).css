@@ -57,29 +57,29 @@ border-top: 2px solid CurrentColor;
 transform: rotate(-45deg);
 transform-origin: 100% 0;
 }
-.flaticon-search:before { content: "\f100"; }
-.flaticon-bag:before { content: "\f101"; }
-.flaticon-search-1:before { content: "\f102"; }
-.flaticon-expand:before { content: "\f103"; }
-.flaticon-keyboard-right-arrow-button:before { content: "\f104"; }
-.flaticon-close-button:before { content: "\f105"; }
-.flaticon-favorite-heart-button:before { content: "\f106"; }
-.flaticon-add-plus-button:before { content: "\f107"; }
-.flaticon-back:before { content: "\f108"; }
-.flaticon-handshake:before { content: "\f109"; }
-.flaticon-idea:before { content: "\f10a"; }
-.flaticon-money:before { content: "\f10b"; }
-.flaticon-report:before { content: "\f10c"; }
-.flaticon-search-2:before { content: "\f10d"; }
-.flaticon-graphic:before { content: "\f10e"; }
-.flaticon-payment:before { content: "\f10f"; }
-.flaticon-chess:before { content: "\f110"; }
-.flaticon-money-1:before { content: "\f111"; }
-.flaticon-quote:before { content: "\f112"; }
-.flaticon-correct:before { content: "\f113"; }
-.flaticon-first:before { content: "\f114"; }
+.flaticon-search:before { content: "\f100"; visibility:hidden; }
+.flaticon-bag:before { content: "\f101"; visibility:hidden; }
+.flaticon-search-1:before { content: "\f102"; visibility:hidden; }
+.flaticon-expand:before { content: "\f103"; visibility:hidden; }
+.flaticon-keyboard-right-arrow-button:before { content: "\f104"; visibility:hidden; }
+.flaticon-close-button:before { content: "\f105"; visibility:hidden; }
+.flaticon-favorite-heart-button:before { content: "\f106"; visibility:hidden; }
+.flaticon-add-plus-button:before { content: "\f107"; visibility:hidden; }
+.flaticon-back:before { content: "\f108"; visibility:hidden; }
+.flaticon-handshake:before { content: "\f109"; visibility:hidden; }
+.flaticon-idea:before { content: "\f10a"; visibility:hidden; }
+.flaticon-money:before { content: "\f10b"; visibility:hidden; }
+.flaticon-report:before { content: "\f10c"; visibility:hidden; }
+.flaticon-search-2:before { content: "\f10d"; visibility:hidden; }
+.flaticon-graphic:before { content: "\f10e"; visibility:hidden; }
+.flaticon-payment:before { content: "\f10f"; visibility:hidden; }
+.flaticon-chess:before { content: "\f110"; visibility:hidden; }
+.flaticon-money-1:before { content: "\f111"; visibility:hidden; }
+.flaticon-quote:before { content: "\f112"; visibility:hidden; }
+.flaticon-correct:before { content: "\f113"; visibility:hidden;}
+.flaticon-first:before { content: "\f114"; visibility:hidden; }
 .flaticon-business-and-finance:before { content: "\f115"; }
-.flaticon-mission:before { content: "\f116"; }
+.flaticon-mission:before { content: "\f116"; visibility:hidden; }
 .flaticon-next:before { content: "\f117"; }
 .flaticon-next-top:before { content: "\f117"; transform: rotate(-45deg); display: inline-block; }
 .flaticon-next-bottom:before { content: "\f117"; transform: rotate(45deg); display: inline-block;}
