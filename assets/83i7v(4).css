@@ -594,7 +594,7 @@ border-radius: unset; }
 .sticky-sidebar_init #main {
 padding-bottom: 70px; }
 #main {
-padding: 40px 0;
+padding: 0px 0;
 position: relative;
 z-index: 0;
 min-height: 65vh;
@@ -3328,7 +3328,7 @@ height: 100%;
 top: 0;
 left: 0; }
 .blog-post.format-quote .blog-post_quote-icon svg .st1 {
-fill: #14212B; }
+fill: #1b1a21; }
 .blog-post.format-link .blog-post_link {
 position: relative;
 z-index: 1; }
@@ -3636,12 +3636,12 @@ color: inherit; }
 .post_featured_bg .post_meta-wrap:empty {
 display: none; }
 .post_featured_bg .wgl-likes {
-background: #14212b; }
+background: #1b1a21; }
 .post_featured_bg .wgl-likes .sl-icon,
 .post_featured_bg .wgl-likes .sl-count {
 color: #fff; }
 .post_featured_bg .blog-post_views-wrap {
-background: #14212b; }
+background: #1b1a21; }
 .post_featured_bg .blog-post_views-wrap .wgl-views .counts, .post_featured_bg .blog-post_views-wrap .wgl-views:before {
 color: #fff; }
 .post_featured_bg .blog-post {
@@ -9222,7 +9222,7 @@ height: 100%;
 top: 0;
 left: 0; }
 .wgl-testimonials .quote_icon_svg svg .st1 {
-fill: #14212B; }
+fill: #1b1a21; }
 .wgl-testimonials .wgl-testimonials_quote {
 position: relative;
 font-weight: 300;
