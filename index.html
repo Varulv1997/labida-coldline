@@ -32,6 +32,102 @@ s.parentNode.insertBefore( wf, s );
 									<!-- <link rel='stylesheet' id='contact-form-7-css'  href='#wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.1.6' type='text/css' media='all' /> -->
 									<!-- <link rel='stylesheet' id='rs-plugin-settings-css'  href='#wp-content/plugins/revslider/public/assets/css/rs6.css?ver=6.1.8' type='text/css' media='all' /> -->
 									<link rel="stylesheet" type="text/css" href="./assets/83i7v.css" media="all">
+										<style>
+#customer-logos a {
+  display: block;
+  padding-top: 70px;
+  padding-bottom: 65px;
+}
+
+.common-Button {
+  white-space: nowrap;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 14px;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  background: #fff;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .025em;
+  color: #fe6417;
+  text-decoration: none;
+  transition: all .15s ease;
+}
+
+.common-Button--default {
+  color: #fff;
+  background: #fe6417;
+}
+
+#customer-logos .common-Button {
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  transform: translate(-50%, 5px) scale(0.95);
+  opacity: 0;
+  transition: 0.7s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.common-Button:hover {
+  color: #eb4e00;
+  transform: translateY(-1px);
+  box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+}
+
+.common-Button--default:hover {
+  color: #fff;
+  background-color: #eb4e00;
+}
+
+#customer-logos a:hover .common-Button {
+  opacity: 1;
+  transform: translate(-50%, -7px);
+}
+
+blockquote, body, button, dd, dl, figure, h1, h2, h3, h4, h5, h6, ol, p, pre, ul {
+  margin: 0;
+  padding: 0;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+#customer-logos ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#customer-logos ul {
+  justify-content: space-between;
+  transition: 1s cubic-bezier(0.19, 1, 0.22, 1);
+  will-change: transform;
+  filter: blur(0);
+}
+
+#customer-logos a:hover ul {
+  opacity: .7;
+  transform: scale(0.95);
+  filter: blur(10px);
+}
+
+#customer-logos li {
+  margin: 0;
+}
+
+#customer-logos img {
+  vertical-align: middle;
+}
+
+#customer-logos img {
+  height: 16px;
+}
+</style>
 										<style id="rs-plugin-settings-inline-css" type="text/css">
 #rs-demo-id {}
 #rev_slider_1_1_wrapper #rev_slider_1_1 .ares .tp-arr-titleholder {
@@ -2581,15 +2677,40 @@ document.getElementsByTagName('head')[0].appendChild(htmlDiv.childNodes[0]);
 																																																																							</div>
 																																																																						</div>
 																																																																					</section>
-																																																																					<div class="elementor-element elementor-element-2b2deb0 acenter elementor-widget elementor-widget-wgl-button" data-id="2b2deb0" data-element_type="widget" data-widget_type="wgl-button.default">
+																																																																					<!-- partial:index.partial.html -->
+<section style="
+    width: 90%;
+    margin: 0 auto !important;
+" id="customer-logos">
+  <a href="#" class="container-lg">
+    <span class="common-Button common-Button--default">Our Loyal Partners</span>
+    <ul>
+      <li><img class="kickstarter" alt="kickstarter" src="https://stripe.com/img/v3/home/customer-logos/kickstarter.svg">
+      </li>
+      <li><img class="instacart" style="
+    height: 52px;
+" alt="instacart" src="assets/img/melamlogo.png">
+      </li>
+      <li><img class="pinterest" style="
+    height: 30px;
+" alt="pinterest" src="assets/img/askonelogo.png">
+      </li>
+      <li><img class="lyft" style="
+    height: 33px;
+" alt="lyft" src="assets/img/asktwologo.png">
+      </li>
+      <li><img class="shopify" alt="shopify" src="https://stripe.com/img/v3/home/customer-logos/shopify.svg">
+      </li>
+      <li><img class="opentable" alt="opentable" src="https://stripe.com/img/v3/home/customer-logos/opentable.svg">
+      </li>
+      <li><img class="slack" alt="slack" src="https://stripe.com/img/v3/home/customer-logos/slack.svg">
+      </li>
+    </ul>
+  </a>
+</section>
+<!-- partial -->
 																																																																						<div class="elementor-widget-container"></div>
-																																																																						<div class="elementor-element elementor-element-d0f9a86 elementor-widget elementor-widget-spacer" data-id="d0f9a86" data-element_type="widget" data-widget_type="spacer.default">
-																																																																							<div class="elementor-widget-container">
-																																																																								<div class="elementor-spacer">
-																																																																									<div class="elementor-spacer-inner"></div>
-																																																																								</div>
-																																																																							</div>
-																																																																						</div>
+																																																																						
 																																																																					</div>
 																																																																				</div>
 																																																																			</div>
@@ -2864,6 +2985,7 @@ document.getElementsByTagName('head')[0].appendChild(htmlDiv.childNodes[0]);
 																																																																								<img src="./assets/section-bg-12.png">
 																																																																								</div>
 																																																																							</section>
+																																																																							
 																																																																							<section class="elementor-element elementor-element-08966b2 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="08966b2" data-element_type="section">
 																																																																								<div class="elementor-container elementor-column-gap-default">
 																																																																									<div class="elementor-row">
