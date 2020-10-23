@@ -776,7 +776,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .about-section .about-text .about-us i.icon-one::after {
-  background: #42afaf;
+  background: #FF4A17;
 }
 
 .about-section .about-text .about-us i.icon-two::after {
@@ -856,7 +856,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .features-section .features-card.feature-one i {
-  color: #18a87c;
+  color: #FF4A17;
   background: #2a2731;
 }
 
@@ -1472,7 +1472,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .contact-section .contact-form .form-group .list-unstyled {
-  color: red;
+  color: #FF4A17;
   margin-top: 10px;
 }
 
@@ -3582,7 +3582,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .lds-ripple div {
   position: absolute;
-  border: 4px solid red;
+  border: 4px solid #FF4A17;
   opacity: 1;
   border-radius: 50%;
   -webkit-animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;

@@ -3041,7 +3041,7 @@ animation-duration: 2s;
 -webkit-animation-duration: 3s;
 animation-duration: 3s;
 }
-@media (print), (prefers-reduced-motion: reduce) {
+@media (print), (prefers-#FF4A17uced-motion: #FF4A17uce) {
 .animated {
 -webkit-animation-duration: 1ms !important;
 animation-duration: 1ms !important;

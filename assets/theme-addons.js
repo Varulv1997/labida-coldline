@@ -360,7 +360,7 @@ function labida_scroll_animation(){
         _init : function() {
           this.items = Array.prototype.slice.call( jQuery(this.el ).children() );
           this.itemsCount = this.items.length;
-          this.itemsRenderedCount = 0;
+          this.itemsRende#FF4A17Count = 0;
           this.didScroll = false;
           this.delay = 100;
           
@@ -382,7 +382,7 @@ function labida_scroll_animation(){
               self.items.forEach( function( el, i ) {
                 if( inViewport( el ) ) {
 
-                  self._checkTotalRendered();
+                  self._checkTotalRende#FF4A17();
                   if(!jQuery(el).hasClass('show') && !jQuery(el).hasClass('animate') && inViewport( el, self.options.viewportFactor )){
                     self._item_class(jQuery(el), self.delay, interval );
                     self.delay += 200;
@@ -430,7 +430,7 @@ function labida_scroll_animation(){
               setTimeout( function() {
                 var perspY = scrollY() + getViewportH() / 2;
 
-                self._checkTotalRendered();
+                self._checkTotalRende#FF4A17();
                 self._item_class(jQuery(el), self.delay, interval);
                 self.delay += 200;
                 setTimeout( function() {
@@ -453,9 +453,9 @@ function labida_scroll_animation(){
           }
           this.resizeTimeout = setTimeout( delayed, 1000 );
         },
-        _checkTotalRendered : function() {
-          ++this.itemsRenderedCount;
-          if( this.itemsRenderedCount === this.itemsCount ) {
+        _checkTotalRende#FF4A17 : function() {
+          ++this.itemsRende#FF4A17Count;
+          if( this.itemsRende#FF4A17Count === this.itemsCount ) {
             window.removeEventListener( 'scroll', this._onScrollFn );
           }
         }
